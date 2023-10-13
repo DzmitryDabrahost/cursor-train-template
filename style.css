@@ -10,4 +10,17 @@ a {
 
 li {
   list-style: none;
+}
+
+.start-screen {
+  display: flex;
+  width: 100%;
+  background-image: url(./cursor-train-template/src/images/start-screen-gradient-background);
+  padding: 60px 40px 0px 40px;
+}
+
+.header {
+  display: flex;
+  padding-bottom: 60px;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
