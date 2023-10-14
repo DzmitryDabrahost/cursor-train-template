@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1280px;
+}
+
 a {
   text-decoration: none;
 }
@@ -11,3 +20,4 @@ a {
 li {
   list-style: none;
 }
+
