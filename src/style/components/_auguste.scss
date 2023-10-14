@@ -5,17 +5,63 @@ display: flex;
 padding: 80px 40px 100px 40px;
 justify-content: center;
 align-items: center;
-background-color: $color-light-lchetttt;
+background-color: $color-light-l;
 }
 .auguste-parent {
     padding: 80px 40px 100px 40px;
+    
 }
 .auguste-parent-paragraph {
+    color: $color-dark-l;
     text-align: center;
     font-family: Georgia;
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 2.1px;
+}
+.auguste-parent-paragraph-button {
+    display: flex;
+    width: 270px;
+    height: 435px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 270px;
+    height: 405px;
+    border: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+    border-radius: 9px;
+}
+.auguste-parent-paragraph-button :hover {
+    cursor: pointer;
+}
+.auguste-parent-paragraph-button-img {
+    width: 270px;
+    height: 270px;
+    display: flex;
+}
+
+
+.auguste-parent-paragraph-button-img-name {
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.auguste-parent-paragraph-button-img-name-learn {
+    font-family: Georgia;
+    font-size: 17px;
+    border-radius: 100px;
+    border: 2px solid $color-primary;
+    display: flex;
+    padding: 15px 45px;
+    letter-spacing: 1.02px;
 }
 .auguste-parent-paragraph-button-img-name-learn-arrow {
     border: 2px solid $color-primary;
@@ -32,3 +78,16 @@ background-color: $color-light-lchetttt;
     transform: scale(-1);
     padding: 23px 19px;
 }
+.auguste-parent-paragraph-button-img-name-learn-arrow-know {
+    border-radius: 100px;
+    border: 9px solid $color-primary;
+    background-color: $color-primary;
+    display: flex;
+    padding: 15px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: Georgia;
+    font-size: 17px;
+    letter-spacing: 1.02px;
+    }
