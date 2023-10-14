@@ -10,4 +10,42 @@ a {
 
 li {
   list-style: none;
+}
+
+.auguste {
+  width: 100%;
+  display: flex;
+  padding: 80px 40px 100px 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.auguste-parent {
+  padding: 80px 40px 100px 40px;
+}
+
+.auguste-parent-paragraph {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.auguste-parent-paragraph-button-img-name-learn-arrow {
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+}
+
+.arrow-left {
+  display: flex;
+  transform: scale(1);
+  padding: 23px 19px;
+}
+
+.arrow-right {
+  display: flex;
+  transform: scale(-1);
+  padding: 23px 19px;
 }/*# sourceMappingURL=style.css.map */
