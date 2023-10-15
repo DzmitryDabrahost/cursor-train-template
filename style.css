@@ -19,4 +19,109 @@ a {
 
 li {
   list-style: none;
+}
+
+.auguste {
+  width: 1280px;
+  background-color: #F6F6F6;
+}
+.auguste-wrapper {
+  padding: 80px 40px 100px 40px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.auguste-wrapper-text {
+  color: #545454;
+  font-family: Georgia;
+  font-size: 35px;
+  letter-spacing: 2.1px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.auguste-wrapper-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  width: 990px;
+  margin-bottom: 60px;
+}
+.auguste-wrapper-cards-card {
+  background-color: #FAFAFA;
+  display: flex;
+  width: 270px;
+  height: 435px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  border-radius: 9px;
+}
+.auguste-wrapper-cards-card-image {
+  width: 270px;
+  height: 270px;
+  display: flex;
+}
+.auguste-wrapper-cards-card-name {
+  color: #545454;
+  font-family: Georgia;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+.auguste-wrapper-cards-card-learn {
+  font-family: Georgia;
+  font-size: 17px;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  display: flex;
+  padding: 15px 45px;
+  letter-spacing: 1.02px;
+}
+.auguste-arrow-left, .auguste-arrow-right {
+  display: flex;
+  transform: scale(1);
+  padding: 23px 19px;
+  border: 2px solid #F1CDB3;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 422px;
+}
+.auguste-arrow-left img, .auguste-arrow-right img {
+  width: 14px;
+  height: 6px;
+}
+.auguste-arrow-left:hover, .auguste-arrow-right:hover {
+  cursor: pointer;
+  background-color: #F1CDB3;
+}
+.auguste-arrow-left {
+  left: 40px;
+}
+.auguste-arrow-right {
+  transform: scale(-1);
+  right: 40px;
+}
+.auguste-submit {
+  display: flex;
+  justify-content: center;
+}
+.auguste-submit-text {
+  color: #292929;
+  border-radius: 100px;
+  border: 9px solid #F1CDB3;
+  background-color: #F1CDB3;
+  padding: 15px 45px;
+  font-family: Georgia;
+  font-size: 17px;
+  letter-spacing: 1.02px;
 }/*# sourceMappingURL=style.css.map */
