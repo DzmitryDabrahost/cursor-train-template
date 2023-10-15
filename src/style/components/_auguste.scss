@@ -16,10 +16,17 @@ background-color: $color-light-l;
     font-size: 35px;
     letter-spacing: 2.1px;
 }
+.auguste-wrapper-text-friends {
+    display: flex;
+    justify-content: center;  
+}
 .auguste-wrapper-cards {
     display: flex;
     justify-content: space-between;
     gap: 90px;
+}
+.hover {
+    cursor: pointer;
 }
 .auguste-wrapper-cards-card {
     background-color: $color-light-s;
@@ -32,9 +39,6 @@ background-color: $color-light-l;
     gap: 30px;
     border-radius: 9px;
 }
-.auguste-wrapper-cards-card :hover {
-    cursor: pointer;
-}
 .auguste-wrapper-cards-card-image {
     width: 270px;
     height: 270px;
@@ -43,6 +47,7 @@ background-color: $color-light-l;
 
 
 .auguste-wrapper-cards-card-image-name {
+    color: $color-dark-l;
     font-family: Georgia;
     font-size: 20px;
     font-style: normal;
@@ -60,10 +65,9 @@ background-color: $color-light-l;
     padding: 15px 45px;
     letter-spacing: 1.02px;
 }
-.auguste-parent-paragraph-button-img-name-learn-arrow {
+.auguste-arrow {
     border: 2px solid $color-primary;
-    border-radius: 100px;
-
+    border-radius: 50%;
 }
 .arrow-left {
     display: flex;
@@ -75,15 +79,17 @@ background-color: $color-light-l;
     transform: scale(-1);
     padding: 23px 19px;
 }
-.auguste-parent-paragraph-button-img-name-learn-arrow-know {
+.auguste-submit {
+    
+    display: flex;
+    justify-content: center;
+}
+.auguste-submit-text {
+    color: $color-dark-3xl;
     border-radius: 100px;
     border: 9px solid $color-primary;
     background-color: $color-primary;
-    display: flex;
     padding: 15px 45px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
     font-family: Georgia;
     font-size: 17px;
     letter-spacing: 1.02px;
