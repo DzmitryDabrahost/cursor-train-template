@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1280px;
+}
+
+.nikita {
+  width: 1280px;
+}
+.nikita-help {
+  padding: 80px 40px 100px 40px;
+}/*# sourceMappingURL=style.css.map */
