@@ -1,13 +1,87 @@
 .start-screen {
-    display: flex;
-    width: 100%;
-    background-image: url(./cursor-train-template/src/images/start-screen-gradient-background);
-    padding: 60px 40px 0px 40px
+    width: 1280px;
+    background-image: url(./src/images/start-screen-gradient-background.png);
 }
 
 .header {
     display: flex;
-    padding-bottom: 60px;
+    padding: 60px 40px 60px 40px;
     justify-content: center;
-   
+    align-items: center;
+    gap: 573px;
 }
+
+.logo-title {
+    font-family: 'Georgia';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    color: $color-primary;
+}
+
+p.subtitle {
+    color: $color-light-xl;
+    font-family: Arial;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    color: $color-light-xl;
+    font-family: Arial;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    color: $color-dark-s;
+}
+
+.navigation-menu {
+    display: flex;
+    
+    &-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+    }
+  }
+  
+  a:active {
+    border-bottom: 3px solid $color-primary;
+  }
+
+  .start-screen-content {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  image.big-puppy {
+    width: 698px;
+    height: 728px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 42px;
+    padding: 163px 42px 243px;
+ }
+
+  .primary-button {
+    border-radius: 100px;
+    background: $color-primary;
+    padding: 15px 45px;
+    font-family: Georgia;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: $color-dark-3xl;
+  }
+
+
+    
