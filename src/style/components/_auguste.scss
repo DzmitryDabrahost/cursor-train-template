@@ -1,0 +1,122 @@
+@mixin arrow ($display, $transform, $padding, $border, $br, $width, $heigh){
+    display: $display;
+    transform: $transform;
+    padding: $padding;
+    border: $border;
+    border-radius: $br;
+    width: $width;
+    height: $heigh;
+}
+
+.auguste {
+    width: 1280px;
+    background-color: $color-light-l;
+
+    &-wrapper {
+        padding: 80px 40px 100px 40px;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &-text {
+            color: $color-dark-l;
+            font-family: Georgia;
+            font-size: 35px;
+            letter-spacing: 2.1px;
+            text-align: center; 
+            margin-bottom: 60px;
+        }
+
+        &-cards {
+            display: flex;
+            justify-content: space-between;
+            gap: 90px;
+            width: 990px;
+            margin-bottom: 60px;
+
+            &-card {
+                background-color: $color-light-s;
+                display: flex;
+                width: 270px;
+                height: 435px;
+                padding-bottom: 0px;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+                border-radius: 9px;
+
+                &-image {
+                    width: 270px;
+                    height: 270px;
+                    display: flex;
+                }
+
+                &-name {
+                    color: $color-dark-l;
+                    font-family: Georgia;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    text-align: center;
+                    letter-spacing: 1.2px;
+                }
+
+                &-learn {
+                    font-family: Georgia;
+                    font-size: 17px;
+                    border-radius: 100px;
+                    border: 2px solid $color-primary;
+                    display: flex;
+                    padding: 15px 45px;
+                    letter-spacing: 1.02px;
+                }
+            }   
+        }
+    }
+
+    &-arrow-left,
+    &-arrow-right {
+        @include arrow(flex,scale(1),23px 19px, 2px solid $color-primary, 50%, 52px, 52px );
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 422px;
+
+        & img {
+            width: 14px;
+            height: 6px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: $color-primary;
+        }
+    }
+    &-arrow-left {
+        left: 40px;
+    }
+
+    &-arrow-right {
+        transform: scale(-1);
+        right: 40px;
+    }
+
+    &-submit {
+        display: flex;
+        justify-content: center;
+
+        &-text {
+            color: $color-dark-3xl;
+            border-radius: 100px;
+            border: 9px solid $color-primary;
+            background-color: $color-primary;
+            padding: 15px 45px;
+            font-family: Georgia;
+            font-size: 17px;
+            letter-spacing: 1.02px;
+        }
+    }
+}
