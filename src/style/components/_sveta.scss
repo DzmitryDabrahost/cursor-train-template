@@ -1,87 +1,115 @@
-.start-screen {
+.sveta-start {
     width: 1280px;
     background-image: url(./src/images/start-screen-gradient-background.png);
-}
 
-.header {
-    display: flex;
-    padding: 60px 40px 60px 40px;
-    justify-content: center;
-    align-items: center;
-    gap: 573px;
-}
+    &-header {
+        display: flex;
+        padding: 60px 40px 60px 40px;
+        justify-content: space-between;
+        gap: 573px;
 
-.logo-title {
-    font-family: 'Georgia';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    color: $color-primary;
-}
+        &-logo {
+          display: flex;
+          flex-direction: column;
+          align-items: left;
 
-p.subtitle {
-    color: $color-light-xl;
-    font-family: Arial;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+          h1 {
+            color: $color-primary;
+            font-family: Georgia;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 110%;
+          }     
 
-p {
-    color: $color-light-xl;
-    font-family: Arial;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    color: $color-dark-s;
-}
+          &-subtitle {
+            color: $color-light-xl;
+            font-family: Arial;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
 
-.navigation-menu {
-    display: flex;
-    
-    &-item {
+     &-navigation-menu {
         display: inline-flex;
         align-items: center;
-        gap: 10px;
+        gap: 35px;
+
+        a {
+            color: $color-dark-s;
+            font-family: Arial;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+
+            &:hover {
+              border-bottom: 3px solid $color-primary;
+              color: $color-light-s;
+              cursor: pointer;
+            }
+        }
+        
+      }
     }
-  }
+
+    &-content {
+        display: flex;
+        padding-left: 40px;
+        padding-right: 40px;
+
+        &-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 42px;
+            padding: 163px 42px 243px 0px;
+
+            h2 {
+                color: $color-light-xl;
+                font-family: Georgia;
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            &-subheading {
+              color: $color-dark-s;
+              font-family: Arial;
+              font-size: 15px;
+              font-style: normal;
+              font-weight: 400;
+            }
+          
+            &-button {
+              border-radius: 100px;
+              background: $color-primary;
+              padding: 15px 45px;
+              font-family: Georgia;
+              font-size: 17px;
+              font-style: normal;
+              font-weight: 400;
+              text-align: center;
+              color: $color-dark-3xl;
+
+              &:hover {
+                cursor: pointer;
+                background: $color-primary-light;
+              }
+            }
+            
+          } 
+        
+          image.big-puppy {
+            width: 698px;
+            height: 728px;
+          }
+      }
+      
+}       
   
-  a:active {
-    border-bottom: 3px solid $color-primary;
-  }
+ 
 
-  .start-screen-content {
-    display: flex;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-
-  image.big-puppy {
-    width: 698px;
-    height: 728px;
-  }
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 42px;
-    padding: 163px 42px 243px;
- }
-
-  .primary-button {
-    border-radius: 100px;
-    background: $color-primary;
-    padding: 15px 45px;
-    font-family: Georgia;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    color: $color-dark-3xl;
-  }
-
-
-    
+  

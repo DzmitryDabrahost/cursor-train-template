@@ -1,4 +1,4 @@
- *{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,90 +19,6 @@ a {
 
 li {
   list-style: none;
-}
-
-.start-screen {
-  width: 1280px;
-  background-image: url(./src/images/start-screen-gradient-background.png);
-}
-
-.header {
-  display: flex;
-  padding: 60px 40px 60px 40px;
-  justify-content: center;
-  align-items: center;
-  gap: 573px;
-}
-
-.logo-title {
-  font-family: "Georgia";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  color: #F1CDB3;
-}
-
-p.subtitle {
-  color: #FFF;
-  font-family: Arial;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-p {
-  color: #FFF;
-  font-family: Arial;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  color: #CDCDCD;
-}
-
-.navigation-menu {
-  display: flex;
-}
-.navigation-menu-item {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
-
-a:active {
-  border-bottom: 3px solid #F1CDB3;
-}
-
-.start-screen-content {
-  display: flex;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-image.big-puppy {
-  width: 698px;
-  height: 728px;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 42px;
-  padding: 163px 42px 243px;
-}
-
-.primary-button {
-  border-radius: 100px;
-  background: #F1CDB3;
-  padding: 15px 45px;
-  font-family: Georgia;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  text-align: center;
-  color: #292929;
 }
 
 .auguste {
@@ -208,4 +124,99 @@ image.big-puppy {
   font-family: Georgia;
   font-size: 17px;
   letter-spacing: 1.02px;
+}
+
+.sveta-start {
+  width: 1280px;
+  background-image: url(./src/images/start-screen-gradient-background.png);
+}
+.sveta-start-header {
+  display: flex;
+  padding: 60px 40px 60px 40px;
+  justify-content: space-between;
+  gap: 573px;
+}
+.sveta-start-header-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.sveta-start-header-logo h1 {
+  color: #F1CDB3;
+  font-family: Georgia;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.sveta-start-header-logo-subtitle {
+  color: #FFF;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sveta-start-header-navigation-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 35px;
+}
+.sveta-start-header-navigation-menu a {
+  color: #CDCDCD;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sveta-start-header-navigation-menu a:hover {
+  border-bottom: 3px solid #F1CDB3;
+  color: #FAFAFA;
+  cursor: pointer;
+}
+.sveta-start-content {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.sveta-start-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 42px;
+  padding: 163px 42px 243px 0px;
+}
+.sveta-start-content-text h2 {
+  color: #FFF;
+  font-family: Georgia;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sveta-start-content-text-subheading {
+  color: #CDCDCD;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sveta-start-content-text-button {
+  border-radius: 100px;
+  background: #F1CDB3;
+  padding: 15px 45px;
+  font-family: Georgia;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #292929;
+}
+.sveta-start-content-text-button:hover {
+  cursor: pointer;
+  background: #FDDCC4;
+}
+.sveta-start-content image.big-puppy {
+  width: 698px;
+  height: 728px;
 }/*# sourceMappingURL=style.css.map */
