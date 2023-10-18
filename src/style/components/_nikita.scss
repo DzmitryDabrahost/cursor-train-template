@@ -1,8 +1,27 @@
 
 .nikita {
     width: 1280px;
+    display: flex;
 
     &-help {
+        width: 1280px;
         padding: 80px 40px 100px 40px;
+
+        &-content {
+            padding: 0px 87px;
+            align-items: center;
+
+            &-text {
+                width: 308px;
+                font-size: 35px;
+                text-align: center;
+                margin-bottom: 60px;
+
+                &-cards {
+                    width: 100%;
+                    padding: 0px 87px;
+                }
+            }
+        }
     }
 }

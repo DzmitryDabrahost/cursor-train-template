@@ -13,9 +13,33 @@ body {
   max-width: 1280px;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 .nikita {
   width: 1280px;
+  display: flex;
 }
 .nikita-help {
+  width: 1280px;
   padding: 80px 40px 100px 40px;
+}
+.nikita-help-content {
+  padding: 0px 87px;
+  align-items: center;
+}
+.nikita-help-content-text {
+  width: 308px;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.nikita-help-content-text-cards {
+  width: 100%;
+  padding: 0px 87px;
 }/*# sourceMappingURL=style.css.map */
