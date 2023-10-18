@@ -264,4 +264,73 @@ li {
     width: 768px;
     height: 1165px;
   }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+  .sveta-start {
+    width: 320px;
+  }
+  .sveta-start-header {
+    display: inline-flex;
+    padding: 30px 53px 60px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+  }
+  .sveta-start-header-navigation {
+    display: none;
+  }
+  .sveta-start-header-burger {
+    display: block;
+    width: 30px;
+    height: 22px;
+    position: relative;
+    z-index: 2;
+  }
+  .sveta-start-header-burger span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F1CDB3;
+    transition: all 0.5s;
+  }
+  .sveta-start-header-burger span:nth-of-type(2) {
+    top: calc(50% - 10px);
+  }
+  .sveta-start-header-burger span:nth-of-type(3) {
+    top: calc(50% + 10px);
+  }
+  .sveta-start-content {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sveta-start-content-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 105px;
+  }
+  .sveta-start-content-text h2 {
+    font-size: 25px;
+  }
+  .sveta-start-content-puppy {
+    width: 260px;
+    height: 272px;
+    padding: 0px 10px 0.23px 50px;
+  }
+  .big-puppy {
+    width: 260px;
+    height: 271.774px;
+  }
+  background-image {
+    width: 320px;
+    height: 823px;
+  }
 }/*# sourceMappingURL=style.css.map */
