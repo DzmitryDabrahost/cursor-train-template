@@ -23,6 +23,7 @@ li {
 
 .auguste {
   width: 1280px;
+  height: 697px;
   background-color: #F6F6F6;
 }
 .auguste-wrapper {
@@ -45,14 +46,14 @@ li {
 .auguste-wrapper-cards {
   display: flex;
   justify-content: space-between;
-  gap: 90px;
-  width: 990px;
+  gap: 40px;
+  width: 70%;
   margin-bottom: 60px;
 }
 .auguste-wrapper-cards-card {
   background-color: #FAFAFA;
   display: flex;
-  width: 270px;
+  width: 100%;
   height: 435px;
   padding-bottom: 0px;
   flex-direction: column;
@@ -83,6 +84,10 @@ li {
   padding: 15px 45px;
   letter-spacing: 1.02px;
 }
+.auguste-wrapper-cards-card:hover {
+  cursor: pointer;
+  background-color: #FFF;
+}
 .auguste-arrow-left, .auguste-arrow-right {
   display: flex;
   transform: scale(1);
@@ -105,11 +110,11 @@ li {
   background-color: #F1CDB3;
 }
 .auguste-arrow-left {
-  left: 40px;
+  left: 3%;
 }
 .auguste-arrow-right {
   transform: scale(-1);
-  right: 40px;
+  right: 3%;
 }
 .auguste-submit {
   display: flex;
@@ -125,6 +130,64 @@ li {
   font-size: 17px;
   letter-spacing: 1.02px;
 }
+
+.auguste-submit .auguste-submit-text:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+  .auguste {
+    width: 768px;
+  }
+  .auguste-wrapper-cards {
+    width: 90%;
+  }
+  .auguste-wrapper-cards-card:last-child {
+    display: none;
+  }
+  .auguste-arrow-left {
+    transform: scale(1);
+    left: 0%;
+  }
+  .auguste-arrow-right {
+    transform: scale(-1);
+    right: 0%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .auguste {
+    width: 100%;
+    height: 890px;
+  }
+  .auguste-wrapper {
+    padding: 0;
+  }
+  .auguste-wrapper-text {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 42px;
+  }
+  .auguste-wrapper-cards {
+    width: 85%;
+  }
+  .auguste-wrapper-cards-card:nth-child(even) {
+    width: 85%;
+    display: none;
+  }
+  .auguste-arrow-left {
+    left: 65px;
+    top: 535px;
+    margin-top: 100px;
+  }
+  .auguste-arrow-right {
+    left: 202px;
+    top: 535px;
+    margin-top: 100px;
+  }
+  .auguste-submit {
+    width: 320px;
+    padding-top: 100px;
+=======
 
 .sveta-start {
   width: 1280px;
