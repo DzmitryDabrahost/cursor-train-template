@@ -130,6 +130,7 @@ li {
   font-size: 17px;
   letter-spacing: 1.02px;
 }
+
 .auguste-submit .auguste-submit-text:hover {
   cursor: pointer;
 }
@@ -186,5 +187,213 @@ li {
   .auguste-submit {
     width: 320px;
     padding-top: 100px;
+=======
+
+.sveta-start {
+  width: 1280px;
+  background-image: url(./src/images/start-screen-gradient-background.png);
+}
+.sveta-start-header {
+  display: flex;
+  padding: 60px 40px 60px 40px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 573px;
+}
+.sveta-start-header-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sveta-start-header-logo h1 {
+  color: #F1CDB3;
+  font-family: Georgia;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  padding-bottom: 5px;
+}
+.sveta-start-header-logo-subtitle {
+  color: #FFF;
+  font-family: Arial;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+}
+.sveta-start-header-burger {
+  display: none;
+}
+.sveta-start-header-navigation-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 35px;
+}
+.sveta-start-header-navigation-menu a {
+  color: #CDCDCD;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sveta-start-header-navigation-menu a:hover {
+  border-bottom: 3px solid #F1CDB3;
+  color: #FAFAFA;
+  cursor: pointer;
+}
+.sveta-start-content {
+  display: flex;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.sveta-start-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  padding: 163px 42px 243px 0px;
+}
+.sveta-start-content-text h2 {
+  color: #FFF;
+  font-family: Georgia;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sveta-start-content-text-subheading {
+  color: #CDCDCD;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.sveta-start-content-text-button {
+  border-radius: 100px;
+  background: #F1CDB3;
+  padding: 15px 45px;
+  font-family: Georgia;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #292929;
+}
+.sveta-start-content-text-button:hover {
+  cursor: pointer;
+  background: #FDDCC4;
+}
+.sveta-start-content image.big-puppy {
+  width: 698px;
+  height: 728px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .sveta-start {
+    width: 768px;
+  }
+  .sveta-start-header {
+    display: flex;
+    padding: 30px 30px 60px 30px;
+    gap: 81px;
+  }
+  .sveta-start-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sveta-start-content-text {
+    padding: 0px 154px 100px 154px;
+  }
+  .sveta-start-content-text-button {
+    justify-content: center;
+  }
+  .sveta-start-content-puppy {
+    width: 768px;
+    padding-left: 169px;
+    padding-right: 30px;
+  }
+  .big-puppy {
+    width: 569px;
+    height: 593px;
+  }
+  background-image {
+    width: 768px;
+    height: 1165px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+  .sveta-start {
+    width: 320px;
+  }
+  .sveta-start-header {
+    display: inline-flex;
+    padding: 30px 53px 60px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+  }
+  .sveta-start-header-navigation {
+    display: none;
+  }
+  .sveta-start-header-burger {
+    display: block;
+    width: 30px;
+    height: 22px;
+    position: relative;
+    z-index: 2;
+  }
+  .sveta-start-header-burger span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F1CDB3;
+    transition: all 0.5s;
+  }
+  .sveta-start-header-burger span:nth-of-type(2) {
+    top: calc(50% - 10px);
+  }
+  .sveta-start-header-burger span:nth-of-type(3) {
+    top: calc(50% + 10px);
+  }
+  .sveta-start-content {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sveta-start-content-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-bottom: 105px;
+  }
+  .sveta-start-content-text h2 {
+    font-size: 25px;
+  }
+  .sveta-start-content-puppy {
+    width: 260px;
+    height: 272px;
+    padding: 0px 10px 0.23px 50px;
+  }
+  .big-puppy {
+    width: 260px;
+    height: 271.774px;
+  }
+  background-image {
+    width: 320px;
+    height: 823px;
   }
 }/*# sourceMappingURL=style.css.map */
