@@ -1,22 +1,30 @@
-.nikita {
-    background: var(--color-light-xl, #FFF);
-    width: 1280px;
+.paddings {
     padding: 80px 40px 100px 40px;
+    width: 1280px;
+}
 
-    &-help {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 87px;
-        gap: 60px;
+.nikita {
+    width: 1280px;
+    height: 611px;
 
-        &-text {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            width: 308px;
-            font-size: 35px;
-            text-align: center;
-            font-weight: 400;
+    .paddings {
+        padding: 80px 40px 100px 40px;
+
+        .nikita-help {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 87px;
+            gap: 60px;
+
+            &-text {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                width: 308px;
+                font-size: 35px;
+                text-align: center;
+                font-weight: 400;
+            }
         }
     }
 }
