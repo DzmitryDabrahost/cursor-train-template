@@ -22,24 +22,62 @@ li {
 }
 
 .nikita {
-  width: 1280px;
-  display: flex;
-}
-.nikita-help {
+  background: var(--color-light-xl, #FFF);
   width: 1280px;
   padding: 80px 40px 100px 40px;
 }
-.nikita-help-content {
-  padding: 0px 87px;
+.nikita-help {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  padding: 0px 87px;
+  gap: 60px;
 }
-.nikita-help-content-text {
+.nikita-help-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
   width: 308px;
   font-size: 35px;
   text-align: center;
-  margin-bottom: 60px;
+  font-weight: 400;
 }
-.nikita-help-content-text-cards {
-  width: 100%;
-  padding: 0px 87px;
+
+.nikita-list {
+  width: 1026px;
+}
+.nikita-list-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nikita-list-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.nikita-list-list-item-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nikita-list2 {
+  width: 1026px;
+}
+.nikita-list2-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nikita-list2-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.nikita-list2-list-item-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
